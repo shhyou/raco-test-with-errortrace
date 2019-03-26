@@ -1,10 +1,10 @@
-raco-test-errortrace
+raco-test-with-errortrace
 ====================
 
-Invoking the `raco test` command with `errortrace` on.
-Note that this tool does not recompile bytecodes.
+`raco test-e`: Load `errortrace` then invoke `raco test`.
+Note that this command does not recompile bytecodes.
 
-Usual `raco test` command:
+Usual `raco test` commands:
 
 ```
 $ raco test example.rkt

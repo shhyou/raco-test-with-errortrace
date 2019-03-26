@@ -1,5 +1,5 @@
 #lang info
-(define collection "raco-test-errortrace")
+(define collection "raco-test-with-errortrace")
 (define deps '("base"
                "compiler-lib"
                "errortrace-lib"))
@@ -8,4 +8,4 @@
 (define pkg-authors '(shhyou))
 
 (define raco-commands
-  '(("test-e" raco-test-errortrace/test "Load `errortrace` then invoke `raco test`." #f)))
+  '(("test-e" raco-test-with-errortrace/test "Load `errortrace` then invoke `raco test`." #f)))
