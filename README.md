@@ -1,6 +1,10 @@
 raco-test-with-errortrace
 ====================
 
+**Note: Since Racket v8.7 (or [compiler-lib](https://pkgs.racket-lang.org/package/compiler-lib) v1.12, `raco test` [supports the `--errortrace` option](https://docs.racket-lang.org/raco/test.html), superseding this package.**
+
+--------
+
 `raco test-e`: Load `errortrace` then invoke `raco test`.
 Note that this command does not recompile bytecodes.
 
